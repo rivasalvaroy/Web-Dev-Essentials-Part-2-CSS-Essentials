@@ -1,0 +1,7 @@
+[data-highlight] {
+  background-color: yellow;
+}
+
+[data-highlight="true"] {
+  background-color: red;
+}

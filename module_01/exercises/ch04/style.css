@@ -1,0 +1,26 @@
+h1,
+h2 {
+  color: red;
+}
+
+p {
+  font-size: 20px;
+  color: green;
+}
+
+.special {
+  color: green;
+}
+
+.parent {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+}
+
+#unique {
+  color: purple;
+}
+
+.important {
+  color: blue !important;
+}
