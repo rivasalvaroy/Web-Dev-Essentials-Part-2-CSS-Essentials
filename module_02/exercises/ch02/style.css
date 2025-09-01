@@ -1,0 +1,17 @@
+.header {
+  background-image: url("/resources/media/forest_path.jpg");
+  height: 400px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  padding-top: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+  background-image: linear-gradient(to bottom, #62a52a, #f9faf0);
+  padding: 20px;
+}

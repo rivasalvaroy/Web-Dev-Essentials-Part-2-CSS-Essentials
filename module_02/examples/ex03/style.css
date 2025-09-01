@@ -1,0 +1,10 @@
+.box {
+  border-style: solid;
+  border-color: lightblue;
+}
+
+div {
+  background: lightblue;
+  color: yellow;
+}
+

@@ -1,0 +1,11 @@
+.header {
+  background-image: url("/uploads/media/default/001/03/sunflowers_sunset_full.jpg");
+  background-color: #ff9900;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  height: 500px;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+}

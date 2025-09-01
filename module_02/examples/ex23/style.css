@@ -1,0 +1,23 @@
+/* Unvisited Link */
+a:link {
+  color: #0000ee; /* Standard link color */
+  text-decoration: underline; /* Underlined by default */
+}
+
+/* Visited Link */
+a:visited {
+  color: #551a8b; /* Typically a darker shade */
+}
+
+/* Link when hovered */
+a:hover {
+  color: #ff0000; /* Changes color to red */
+  background-color: #f0f0f0; /* Adds a light gray background */
+  text-decoration: none; /* Removes underline */
+}
+
+/* Active Link (while being clicked) */
+a:active {
+  color: #f00; /* Typically a bright color */
+  font-weight: bold; /* Makes the text bold */
+}

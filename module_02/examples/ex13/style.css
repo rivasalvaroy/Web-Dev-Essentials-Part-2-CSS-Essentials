@@ -1,0 +1,13 @@
+h2 {
+  text-align: center;
+}
+
+p {
+  font-style: oblique;
+  color: red;
+  line-height: 1.5;
+}
+
+.title {
+  text-transform: uppercase;
+}

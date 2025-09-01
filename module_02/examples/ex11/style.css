@@ -1,0 +1,18 @@
+/* .header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #343a40;
+} */
+
+.header {
+  background-image: radial-gradient(circle, #ff9900, #ffcc00);
+  height: 500px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  padding-top: 100px;
+}

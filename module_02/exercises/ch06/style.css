@@ -1,0 +1,30 @@
+/* Unvisited Link */
+a:link {
+  color: #0000ee;
+  text-decoration: underline;
+}
+
+/* Visited Link */
+a:visited {
+  color: #551a8b;
+}
+
+/* Hovered Link */
+a:hover {
+  color: #ff0000;
+  background-color: #f0f0f0;
+  text-decoration: none;
+}
+
+/* Focused Link */
+a:focus {
+  outline-style: solid;
+  outline-color: green;
+  outline-width: 2px;
+}
+
+/* Active Link */
+a:active {
+  color: #f00;
+  font-weight: bold;
+}

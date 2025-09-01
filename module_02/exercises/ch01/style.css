@@ -1,0 +1,32 @@
+body {
+  background-color: #15140e;
+}
+
+h1 {
+  color: rgb(252, 185, 60); /* Yellow Orange color using RGB */
+}
+
+p {
+  color: #ffde9d; /* Cream Brulee color using HEX */
+}
+
+.vivid {
+  color: hsl(9, 100%, 64%); /* Tomato color using HSL */
+}
+
+a {
+  color: lightgray; /* Light Gray color using named color */
+}
+
+.box {
+  border-style: solid;
+  border-color: white;
+}
+
+.button {
+  box-shadow: 3px 3px 6px rgba(255, 222, 157, 0.7);
+}
+
+.input-field {
+  outline-color: #df3d1d;
+}

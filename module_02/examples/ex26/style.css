@@ -1,0 +1,10 @@
+img {
+  object-position: center top;
+  border: 2px solid #000; /* Apply a 2-pixel wide black solid border */
+  /* Uniformly rounded corners */
+  border-radius: 20px;
+  /* Different radii for horizontal and vertical corners*/
+  /* border-radius: 10px 30px; */
+  /* Define radii for all four corners */
+  /* border-radius: 5px 15px 10px 20px;  */
+}

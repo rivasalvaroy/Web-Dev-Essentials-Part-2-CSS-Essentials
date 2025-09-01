@@ -1,0 +1,32 @@
+h1 {
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  text-align: center;
+  text-shadow: 1px 1px 2px #555, -1px -1px 2px #555;
+}
+
+p {
+  font-family: "Verdana", Arial, sans-serif;
+  color: red;
+  line-height: 1.5;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.highlight {
+  text-decoration: overline;
+}
+
+.spacing {
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}

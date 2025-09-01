@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light gray using HEX value */
+}
+
+#header {
+  background-image: url("/resources/media/portfolio.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-color: #efcc00; */
+  background-color: #f4a460;
+  background-blend-mode: luminosity;
+  /* background-color: cmyk(0, 100, 100, 0); */
+  height: 300px;
+  padding-top: 70px;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(255, 239, 213);
+  font-size: 64px;
+  font-family: Ubuntu, sans-serif;
+}
+
+h2 {
+  color: hsl(30, 50.75%, 26.27%);
+  font-style: italic;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 18px;
+}
+
+main {
+  background: linear-gradient(to bottom, #f4a460, #fdf5e6);
+}
+
+section {
+  margin: 20px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  line-height: 1.6;
+  padding-left: 10px;
+}
+
+a:link {
+  color: darkblue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: red;
+}
+
+img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+}

@@ -1,0 +1,9 @@
+.custom-bullet-list {
+  list-style-type: circle; /* Use circle bullets */
+  list-style-position: inside; /* Position bullets inside the content flow */
+}
+
+.custom-number-list {
+  list-style-type: lower-alpha; /* Use lowercase letters */
+  list-style-position: outside; /* Position numbers outside the content flow (default) */
+}
