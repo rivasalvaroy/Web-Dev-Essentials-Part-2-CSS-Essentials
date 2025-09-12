@@ -1,0 +1,12 @@
+.container {
+  height: 200px; /* Set a fixed height for the container */
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Center items vertically */
+  border: 2px solid #ccc; /* Add a border for visualization */
+  padding: 10px; /* Add padding for visualization */
+}
+
+p {
+  border: 1px dotted; /* Add a border for visualization */
+  padding: 10px; /* Add padding for visualization */
+}

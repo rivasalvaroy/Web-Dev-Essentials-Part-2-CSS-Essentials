@@ -1,0 +1,8 @@
+.table-container {
+  overflow-x: auto;
+}
+
+.responsive-table {
+  /* Table styles */
+  min-width: 600px; /* Minimum width of the table */
+}

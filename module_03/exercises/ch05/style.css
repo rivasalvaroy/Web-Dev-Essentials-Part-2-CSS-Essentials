@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: lightgray;
+  margin: 50px auto;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  background-color: skyblue;
+  padding: 10px;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: darkslategray;
+  color: white;
+  padding: 10px;
+}
+
+.content {
+  margin-top: 50px; /* Ensure content starts below the fixed navigation */
+  padding: 20px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customizing Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="custom-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+
+      <!-- Spacer div for visual separation -->
+      <div class="button-spacer"></div>
+
+      <button type="submit" class="submit-button">Submit</button>
+    </form>
+
+    <form class="styled-form">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Last Name" />
+        <!-- More related fields -->
+      </fieldset>
+
+      <!-- More fieldsets for other groups -->
+    </form>
+  </body>
+</html>

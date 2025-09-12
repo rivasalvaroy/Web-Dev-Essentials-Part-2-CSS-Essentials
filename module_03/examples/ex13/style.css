@@ -1,0 +1,6 @@
+.inline-block-element {
+  display: inline-block;
+  background-color: lightcoral;
+  margin: 5px;
+  padding: 10px;
+}

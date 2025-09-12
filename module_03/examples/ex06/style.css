@@ -1,0 +1,10 @@
+.center-align {
+  text-align: center;
+  border: 2px solid #ccc; /* Add a border for visualization */
+  padding: 10px; /* Add a padding for visualization */
+}
+
+p {
+  border: 1px dotted; /* Add a border for visualization */
+  padding: 10px; /* Add a padding for vizualization */
+}

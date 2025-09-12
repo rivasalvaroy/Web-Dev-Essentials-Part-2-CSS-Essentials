@@ -1,0 +1,11 @@
+.container {
+  height: 200px; /* Set a fixed height for the container */
+  border: 2px solid #ccc; /* Add a border to see the box */
+  padding: 10px; /* Add some space inside the box */
+}
+
+span {
+  vertical-align: middle; /* Align the text vertically in the middle */
+  border: 1px dotted; /* Add a border to see the text's space */
+  padding: 10px; /* Add some space around the text */
+}

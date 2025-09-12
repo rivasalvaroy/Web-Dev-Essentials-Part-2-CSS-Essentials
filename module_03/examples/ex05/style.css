@@ -1,0 +1,12 @@
+.container {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  border: 1px solid #333;
+  overflow: scroll; /* Enable scrollbars if content overflows */
+}
+
+.content {
+  width: 250px; /* Wider than the container */
+  height: 150px; /* Taller than the container */
+}

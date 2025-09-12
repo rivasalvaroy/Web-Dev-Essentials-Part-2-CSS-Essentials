@@ -1,0 +1,31 @@
+.container {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  border: 1px solid #333;
+  overflow: scroll;
+}
+
+.content {
+  width: 250px;
+  height: 150px;
+}
+
+.center-align {
+  text-align: center;
+  border: 2px solid #ccc;
+  padding: 10px;
+}
+
+p {
+  border: 1px dotted;
+  padding: 10px;
+}
+
+.container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #ccc;
+  padding: 10px;
+}

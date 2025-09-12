@@ -1,0 +1,26 @@
+.page-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.main-content {
+  background-color: #add8e6;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 10px;
+}
