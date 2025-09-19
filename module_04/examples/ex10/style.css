@@ -1,0 +1,20 @@
+.navbar {
+  background-color: lightblue;
+  overflow: hidden; /* Clear the floats */
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  float: left;
+  padding: 10px 15px;
+}
+
+.menu-item:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}

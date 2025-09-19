@@ -1,0 +1,13 @@
+.float-left {
+  float: left;
+  margin-right: 10px; /* Space between the image and the text */
+}
+
+.text-image-container img {
+  width: 200px;
+  height: auto;
+}
+
+.text-image-container p {
+  text-align: justify;
+}

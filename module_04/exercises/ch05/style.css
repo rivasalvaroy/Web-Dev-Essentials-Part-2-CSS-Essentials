@@ -1,0 +1,67 @@
+/* Base styles */
+body {
+  font-family: Ubuntu, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+  background-color: lightgreen;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Column styles */
+.column {
+  float: left;
+  width: 30%;
+  margin: 1.66%;
+  padding: 10px;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+/* Clearfix */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .column {
+    width: 100%;
+    float: none;
+    margin: 0 0 20px 0;
+  }
+}
+
+/* Grid styles */
+.row {
+  overflow: hidden;
+}
+
+/* Post styles */
+.post img {
+  float: left;
+  width: 50%;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.post {
+  overflow: hidden;
+}
