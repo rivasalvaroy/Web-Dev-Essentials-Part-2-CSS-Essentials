@@ -1,0 +1,43 @@
+body {
+  font-family: Ubuntu, Arial, sans-serif;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow multiple lines of product cards */
+  justify-content: space-evenly;
+  /* gap: 20px;  */
+}
+
+.product-card {
+  width: 25%;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column; /* Stack card coalign-self: center;ntent vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: space-between; /* Space out content */
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-card h2 {
+  margin: 10px 0;
+}
+
+.product-card p {
+  flex-grow: 1; /* Allow description to take up available space */
+}
+
+.product-card button {
+  padding: 10px 20px;
+}

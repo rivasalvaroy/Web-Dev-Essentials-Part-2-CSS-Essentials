@@ -1,0 +1,14 @@
+.flex-container {
+  display: flex;
+  background: #f7f7f7;
+  padding: 10px;
+  max-width: 500px; /* Container max-width to force shrinking */
+}
+
+.item {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  width: 200px; /* Set initial width  */
+  flex-shrink: 1; /* Allow shrinking (default is 1) */
+}

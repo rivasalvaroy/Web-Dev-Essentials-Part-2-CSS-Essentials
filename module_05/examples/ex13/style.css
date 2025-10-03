@@ -1,0 +1,21 @@
+.flex-container {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  background-color: lightgray;
+  border-radius: 4px;
+}
+
+.item {
+  flex: 1; /* Items take up equal space */
+  padding: 20px;
+  text-align: center;
+  background-color: cornflowerblue;
+  color: white;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+.item.special {
+  align-self: flex-start; /* This item is aligned to the start of the cross axis */
+}

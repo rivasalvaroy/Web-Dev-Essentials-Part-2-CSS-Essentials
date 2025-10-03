@@ -1,0 +1,20 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto;
+  gap: 16px;
+  padding: 16px;
+  background-color: aliceblue;
+}
+
+.grid-item {
+  background-color: lightcoral;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  color: white;
+}
+.grid-item:nth-child(2) {
+  background-color: lightseagreen;
+}

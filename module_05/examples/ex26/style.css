@@ -1,0 +1,31 @@
+.news-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr; /* Main content is 3 times wider than the sidebar */
+  grid-template-rows: auto 1fr auto; /* Header and footer with auto height, main content grows */
+  gap: 20px; /* Space between grid items */
+}
+
+header,
+article,
+aside,
+footer {
+  padding: 20px;
+  background-color: lightgray;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header,
+footer {
+  grid-column: 1 / -1; /* Span from the first to the last column */
+  background-color: #f8f8f8;
+}
+
+article {
+  grid-column: 1;
+}
+
+aside {
+  grid-column: 2;
+}

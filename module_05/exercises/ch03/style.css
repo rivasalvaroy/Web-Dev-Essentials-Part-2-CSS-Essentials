@@ -1,0 +1,18 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #e3e3e3; /* Color for visibility */
+  border: 2px solid #ccc; /* Border for visibility */
+}
+
+.flex-item {
+  flex: 1 1 150px; /* Flex-grow, flex-shrink, flex-basis */
+  margin: 10px;
+  padding: 15px;
+  background: darksalmon;
+  border: 1px solid #000; /* Border for visibility */
+}

@@ -1,0 +1,11 @@
+.flex-container {
+  display: flex;
+  flex-direction: row; /* Default value */
+}
+
+/* Additional styles for visibility */
+.flex-container div {
+  margin: 5px;
+  padding: 10px;
+  background: #4caf50;
+}

@@ -1,0 +1,26 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(200px, 1fr)
+  ); /* Creates as many columns as can fit */
+  gap: 10px; /* Space between cards */
+}
+
+.card {
+  height: 300px;
+  color: white;
+  font-size: 1.5em;
+  background-color: lightcoral;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .card-container {
+    grid-template-columns: 1fr; /* Single column on small screens */
+  }
+}

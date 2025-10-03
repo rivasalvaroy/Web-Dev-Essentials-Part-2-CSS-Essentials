@@ -1,0 +1,17 @@
+.flex-container {
+  display: flex;
+  justify-content: space-around; /* Horizontally aligns items with space around them */
+  align-items: center; /* Vertically aligns items in the center */
+  background: linear-gradient(45deg, #77216f, black);
+  padding: 10px;
+  border-radius: 5px; /* Adds rounded corners to the container */
+}
+
+.flex-container > div {
+  background-color: #e95420;
+  padding: 10px;
+  margin: 5px;
+  flex-grow: 1; /* Allows items to grow and fill available space */
+  text-align: center; /* Centers text within each item */
+  border-radius: 5px; /* Adds rounded corners to each item */
+}

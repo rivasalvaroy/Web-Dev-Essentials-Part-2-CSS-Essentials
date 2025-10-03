@@ -1,0 +1,12 @@
+.flex-container {
+  display: flex;
+  background: #f7f7f7;
+  padding: 10px;
+}
+
+.item {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  flex-grow: 1; /* Items will grow equally */
+}

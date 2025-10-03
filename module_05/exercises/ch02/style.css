@@ -1,0 +1,23 @@
+.gallery {
+  display: flex; /* Define the element as a Flex container */
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  justify-content: space-around; /* Center items and add space around them */
+}
+.photo {
+  width: 30%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px;
+  background-color: #f0f0f0;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .photo {
+    width: 100%; /* Stack items vertically on smaller screens */
+  }
+}

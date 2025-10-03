@@ -1,0 +1,6 @@
+.flex-container {
+  display: flex;
+  background: #e3e3e3; /* Color for visibility */
+  padding: 10px; /* Padding for visibility */
+  border: 1px solid #cccccc; /* Border for visibility */
+}

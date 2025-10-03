@@ -1,0 +1,13 @@
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  background: #e3e3e3;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Additional styles for visibility */
+.flex-container div {
+  padding: 10px;
+  background: darksalmon;
+}

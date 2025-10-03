@@ -1,0 +1,19 @@
+.shape-container {
+  display: flex;
+  justify-content: center; /* Center the shape horizontally */
+  align-items: center; /* Center the shape vertically */
+  height: 200px;
+  background-color: rgb(248, 248, 248);
+}
+
+.shape {
+  width: 150px;
+  height: 150px;
+  background-color: #3498db;
+  clip-path: polygon(
+    50% 0%,
+    100% 50%,
+    50% 100%,
+    0% 50%
+  ); /* Create a diamond shape */
+}

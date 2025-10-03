@@ -1,0 +1,16 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  justify-items: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  background-color: aliceblue;
+}
+
+.grid-item {
+  background-color: lightcoral;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  color: white;
+}

@@ -1,0 +1,19 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto; /* Creates three columns */
+  grid-template-rows: auto; /* Creates one row, height determined by content */
+  gap: 10px; /* Space between grid items */
+}
+
+.grid-item {
+  background-color: #f0f0f0; /* Light gray background */
+  border: 1px solid #ccc; /* Light gray border */
+  padding: 20px; /* Padding inside each grid item */
+  text-align: center; /* Centered text */
+}
+
+.grid-item:nth-child(1) {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  background-color: lightblue;
+}

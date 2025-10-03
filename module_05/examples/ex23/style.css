@@ -1,0 +1,27 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 10px;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3; /* Spans from column line 1 to 3 */
+  grid-row-start: 1;
+  grid-row-end: 2; /* Occupies row line 1 */
+}
+
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 4; /* Spans from column line 2 to 4 */
+  grid-row-start: 2;
+  grid-row-end: 3; /* Occupies row line 1 */
+}

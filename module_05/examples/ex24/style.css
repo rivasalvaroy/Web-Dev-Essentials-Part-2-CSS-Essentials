@@ -1,0 +1,22 @@
+.grid-container {
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 10px;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.item1 {
+  justify-self: start; /* Aligns item to the start of the cell along the row axis */
+  align-self: end; /* Aligns item to the end of the cell along the column axis */
+}
+.item2 {
+  place-self: center center; /* Centers item both horizontally and vertically */
+}

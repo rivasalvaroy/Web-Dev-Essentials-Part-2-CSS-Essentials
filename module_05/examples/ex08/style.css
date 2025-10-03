@@ -1,0 +1,22 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #e3e3e3;
+  padding: 10px;
+  border: 1px solid #ccc;
+  height: 300px;
+}
+
+/* Additional styles for visibility */
+.flex-container div {
+  flex: 1 1 100px; /* flex-grow | flex-shrink | flex-basis */
+  margin: 5px;
+  padding: 10px;
+  background: #4caf50; /* Item background color for visibility */
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #333;
+}

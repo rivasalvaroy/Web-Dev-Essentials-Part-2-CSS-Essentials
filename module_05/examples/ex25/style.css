@@ -1,0 +1,18 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates a 3-column layout */
+  gap: 10px; /* Space between grid items */
+}
+
+.gallery-item {
+  height: 200px; /* Fixed height for each item */
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery img {
+  width: 100px;
+  aspect-ratio: 1 / 1; /* Maintains a square aspect ratio */
+}

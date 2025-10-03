@@ -1,0 +1,13 @@
+.flex-container {
+  display: flex;
+  background: #f7f7f7;
+  padding: 10px;
+}
+
+.item {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  flex-basis: 100px; /* Default size before growing or shrinking */
+  flex-grow: 1; /* Allow items to grow to fill space */
+}
