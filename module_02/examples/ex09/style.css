@@ -3,7 +3,7 @@
   height: 300px;
   border: 1px solid #000000;
   overflow: scroll; /* Adds a scrollbar to the box if its content overflows. */
-  background-image: url("/uploads/media/default/0001/03/eodg_grey_fav.png");
+  background-image: url("./uploads/media/default/0001/03/eodg_grey_fav.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

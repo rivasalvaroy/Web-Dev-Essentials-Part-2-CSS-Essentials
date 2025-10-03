@@ -1,5 +1,5 @@
 .header {
-  background-image: url("/resources/media/forest_path.jpg");
+  background-image: url("./resources/media/forest_path.jpg");
   height: 400px;
   text-align: center;
   font-size: 26px;

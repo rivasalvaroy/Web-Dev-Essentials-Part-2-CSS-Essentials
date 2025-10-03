@@ -1,5 +1,5 @@
 .header {
-  background-image: url("/uploads/media/default/001/03/sunflowers_sunset_full.jpg");
+  background-image: url("./uploads/media/default/001/03/sunflowers_sunset_full.jpg");
   height: 500px;
   text-align: center;
   color: white;
