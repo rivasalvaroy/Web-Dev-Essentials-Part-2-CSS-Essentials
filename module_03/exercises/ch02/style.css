@@ -11,7 +11,7 @@ body {
   color: white;
   line-height: 160px;
   background-color: lightcoral;
-  background-image: url("/resources/media/red-flower.png");
+  background-image: url("./resources/media/red-flower.png");
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 20px;
@@ -24,7 +24,7 @@ body {
 .background-size-box {
   color: olivedrab;
   background-color: #ffdead;
-  background-image: url("/resources/media/banner.png");
+  background-image: url("./resources/media/banner.png");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center;

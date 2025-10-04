@@ -7,7 +7,7 @@ body {
 
 /* Header styles */
 header {
-  background: url("/images/eva_01.png") no-repeat center;
+  background: url("./images/eva_01.png") no-repeat center;
   background-size: cover;
   padding: 60px;
   color: white;

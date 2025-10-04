@@ -3,7 +3,7 @@
   font-size: x-large;
   font-weight: bold;
   background-color: lightblue;
-  background-image: url("/resources/media/red-flower.png");
+  background-image: url("./resources/media/red-flower.png");
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 15px;
