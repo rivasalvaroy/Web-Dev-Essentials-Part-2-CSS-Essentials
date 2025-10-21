@@ -1,0 +1,15 @@
+.gallery-image {
+  width: auto;
+  height: 400px;
+  background-image: url("./images/sunflowers_sunset_full.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.gallery-image:hover {
+  opacity: 1;
+}

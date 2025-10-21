@@ -1,0 +1,24 @@
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to your element */
+.sliding-element {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  position: relative; /* Required for the translateX function to work correctly */
+
+  animation: slideAnimation 2s ease-out 2 forwards;
+}

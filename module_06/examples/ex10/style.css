@@ -1,0 +1,29 @@
+.accordion-header {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.accordion-header:hover {
+  cursor: pointer;
+  background-color: #367b48;
+}
+
+.accordion-content {
+  display: none;
+  padding: 0 18px;
+  background-color: white;
+  overflow: hidden;
+  max-height: 0; /* Start with max-height 0 */
+  transition: max-height 0.2s ease-out; /* Smooth transition for expanding and collapsing */
+}
+
+.accordion-header:focus + .accordion-content {
+  display: block;
+  max-height: 500px; /* Adjust based on content size */
+}

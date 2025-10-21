@@ -1,0 +1,8 @@
+.color-change {
+  color: #4caf50; /* Initial color */
+  transition: color 0.3s ease; /* Smooth transition for color property */
+}
+
+.color-change:hover {
+  color: #f44336; /* Color on hover */
+}

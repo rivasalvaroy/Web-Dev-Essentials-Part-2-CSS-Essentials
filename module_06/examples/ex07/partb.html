@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Part B</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .modal-overlay-partb {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        visibility: visible;
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .modal-box-partb {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        max-width: 500px;
+        width: 100%;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      label a {
+        text-decoration: none;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="modal-overlay-partb">
+      <!-- Modal Box -->
+      <div class="modal-box-partb">
+        <h2>Modal Title</h2>
+        <p>This is a modal box. You can place your content here.</p>
+        <!-- Label acts as a button to close the modal -->
+        <label for="toggle-modal" class="modal-close-button"
+          ><a href="./parta.html">Close</a></label
+        >
+      </div>
+    </div>
+  </body>
+</html>

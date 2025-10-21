@@ -1,0 +1,12 @@
+.rotate-icon {
+  display: inline-block;
+  font-size: 64px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.rotate-icon:hover {
+  transform: rotate(180deg); /* Icon rotates 180 degrees on hover */
+}
+.rotate-icon:active {
+  transform: rotate(360deg); /* Icon rotates 360 degrees on click */
+}

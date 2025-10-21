@@ -1,0 +1,8 @@
+.input-highlight {
+  padding: 10px;
+  border: 2px solid #ccc;
+  transition: border-color 0.3s ease-in-out;
+}
+.input-highlight:focus {
+  border-color: #4caf50; /* Highlight color when the input field is focused */
+}

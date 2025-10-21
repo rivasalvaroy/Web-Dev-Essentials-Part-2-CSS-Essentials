@@ -1,0 +1,20 @@
+.scale-box {
+  transform: scale(1); /* Element is at its normal size */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for the transform property */
+}
+
+.scale-box:hover {
+  transform: scale(1.1);
+}
+
+.zoom-background {
+  width: 200px;
+  height: 200px;
+  background-image: url("./images/sunflowers_sunset_full.jpg");
+  background-size: cover;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for the background-size property */
+}
+
+.zoom-background:hover {
+  transform: scale(1.1); /* Image zooms in on hover */
+}

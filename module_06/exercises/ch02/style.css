@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.animation-box {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  animation: moveAndScale 3s infinite;
+  cursor: pointer;
+}
+@keyframes moveAndScale {
+  0% {
+    transform: translateX(0) scale(1);
+    background-color: #3498db;
+  }
+  50% {
+    transform: translateX(150px) scale(1.5);
+    background-color: #e74c3c;
+  }
+  100% {
+    transform: translateX(0) scale(1);
+    background-color: #3498db;
+  }
+}
